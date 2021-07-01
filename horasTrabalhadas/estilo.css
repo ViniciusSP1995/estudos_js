@@ -1,5 +1,5 @@
 body {
-background: blue;
+background: rgb(119, 0, 255);
 font: normal 15pt Arial;
 }
 
@@ -10,6 +10,7 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    
 }
 
 header {
@@ -21,4 +22,22 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+div #horas {
+    width: 40px;
+}
+
+
+.pergunta{
+    text-align: justify;
+}
+
+.resposta {
+    text-align: center;
+    font-weight: bold;
+}
+
+#resultado {
+    margin-top: 25px;
 }

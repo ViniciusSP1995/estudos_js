@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas trabalhadas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Horas trabalhadas</h1>
+  </header>  
+
+  <section>
+    <div>
+      <p class="pergunta">Elabore um sistema que leia variáveis, respectivamente código e número de horas trabalhadas de um operário. E calcule o salário sabendo-se que ele ganha R$ 10,00 por hora. Quando o número de horas exceder a 50 calcule o excesso de pagamento armazenando-o na variável E, caso contrário zerar tal variável. A hora excedente de trabalho vale R$ 20,00. No final do processamento imprimir o salário total e o salário excedente.</p>
+    </div>
+    <hr>
+    <div>
+      <p class="resposta">Resposta</p>
+    </div>
+    <div>
+       <p>Olá, nos informe suas horas trabalhadas: <input type="number" name="horasTrabalhadas" id="horas"></p>
+       <input type="button" value="Calcular" onclick="calcular()"> 
+    </div>
+
+    <div id="resultado">
+     Aqui será calculado seu salário
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Vinícius da Silva</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
